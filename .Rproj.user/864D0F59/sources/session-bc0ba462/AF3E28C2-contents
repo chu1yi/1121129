@@ -1,2 +1,6 @@
 dat = read.csv("Example data.csv", header = TRUE)
 
+hist(dat[,"eGFR"])
+boxplot(dat[,"eGFR"])
+pie(table(dat[,"Education"]))
+barplot(table(dat[,"Education"]))
